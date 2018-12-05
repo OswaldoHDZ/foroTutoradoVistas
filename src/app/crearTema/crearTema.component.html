@@ -6,7 +6,7 @@
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h4 class="modal-title" id="exampleModalLabel"><strong>Crear tema</strong></h4>
+        <h4 class="modal-title" id="exampleModalLabel"><i class="fas fa-sitemap" style="font-size: 30px; padding-right: 20px;"></i><strong>Crear tema</strong></h4>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -15,20 +15,21 @@
         <div class="input-group">
           <form>
             <div class="form-group">
-              <h5>Autor:  <span class="badge badge-pill badge-success" id ="autor">Anonimo</span></h5>
+            <h5><i class="fas fa-user"style="font-size: 30px; padding-right: 20px;"></i>Autor:  <span class="badge badge-pill badge-success" id ="autor">Anonimo</span></h5>
             </div>
             <div class="form-group">
-              <h5>Fecha actual:  <span class="badge badge-pill badge-light">{{'1442439719756' | date:'dd/MM/yyyy'}}</span></h5>
+              <h5><i class="far fa-calendar-alt" style="font-size: 30px; padding-right: 20px;"></i>Fecha actual:  <span class="badge badge-pill badge-light">{{'1442439719756' | date:'dd/MM/yyyy'}}</span></h5>
             </div>
             <div class="form-group">
               <!--Nombre tema nuevo-->
               <div class="input-group-prepend">
-                <span class="input-group-text">Titulo del tema</span><input id="tituloTemaInput" type="text" class="form-control">
+                  <i class="fas fa-sitemap" style="font-size: 30px; padding-right: 20px;"></i><span class="input-group-text">Titulo del tema</span><input id="tituloTemaInput" type="text" class="form-control">
               </div>
             </div>
             <div class="form-group">
                 <!--Nombre tema nuevo-->
                 <div class="input-group-prepend">
+                <i class="fas fa-tag" style="font-size: 30px; padding-right: 20px;"></i>
                 <span class="input-group-text">Palabras clave</span>
                 <input type="text" class="form-control">
                 <input type="text" class="form-control">
@@ -44,8 +45,8 @@
         </div>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-        <button type="button" class="btn btn-success">Guardar</button>
+        <button type="button" class="btn btn-danger btn-rounded" data-dismiss="modal">Cerrar</button>
+        <button type="button" class="btn btn-info btn-rounded" data-dismiss="modal">Guardar</button>
       </div>
     </div>
   </div>

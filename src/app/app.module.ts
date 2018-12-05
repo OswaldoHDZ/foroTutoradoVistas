@@ -5,7 +5,7 @@ import { AppComponent } from './app.component';
 import { BarraSuperiorComponent } from './barraSuperior/barraSuperior.component';
 import { CrearTemaComponent } from './crearTema/crearTema.component';
 import { TemasComponent } from './temas/temas.component';
-import { ComentariosComponent } from './comentarios/comentarios.component';
+import { ComentariosComponent } from './ventanaComentarios/comentarios.component';
 
 @NgModule({
    declarations: [
