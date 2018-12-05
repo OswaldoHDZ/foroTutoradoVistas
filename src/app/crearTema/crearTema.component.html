@@ -1,0 +1,52 @@
+<!-- Button trigger modal -->
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="exampleModalLabel"><strong>Crear tema</strong></h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="input-group">
+          <form>
+            <div class="form-group">
+              <h5>Autor:  <span class="badge badge-pill badge-success" id ="autor">Anonimo</span></h5>
+            </div>
+            <div class="form-group">
+              <h5>Fecha actual:  <span class="badge badge-pill badge-light">{{'1442439719756' | date:'dd/MM/yyyy'}}</span></h5>
+            </div>
+            <div class="form-group">
+              <!--Nombre tema nuevo-->
+              <div class="input-group-prepend">
+                <span class="input-group-text">Titulo del tema</span><input id="tituloTemaInput" type="text" class="form-control">
+              </div>
+            </div>
+            <div class="form-group">
+                <!--Nombre tema nuevo-->
+                <div class="input-group-prepend">
+                <span class="input-group-text">Palabras clave</span>
+                <input type="text" class="form-control">
+                <input type="text" class="form-control">
+                <input type="text" class="form-control">
+                <input type="text" class="form-control">
+              </div>
+            </div>
+            <div class="form-group">
+              <h5><label for="exampleFormControlTextarea1">Descrippcion de tema</label></h5>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+        <button type="button" class="btn btn-success">Guardar</button>
+      </div>
+    </div>
+  </div>
+</div>
